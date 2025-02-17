@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|c:\\users\\mateu\\videos\\bibliotecapooebd2\\dao\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:dao\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\formularios\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:formularios\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\formularios\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:formularios\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\data\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:data\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T01:27:49.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CadastrarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\CadastrarUsuario.cs",
+              "RelativeDocumentMoniker": "Formularios\\CadastrarUsuario.cs",
+              "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\CadastrarUsuario.cs",
+              "RelativeToolTip": "Formularios\\CadastrarUsuario.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:49:24.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:47:33.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DaoLivro.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Dao\\DaoLivro.cs",
+              "RelativeDocumentMoniker": "Dao\\DaoLivro.cs",
+              "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Dao\\DaoLivro.cs",
+              "RelativeToolTip": "Dao\\DaoLivro.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAIwD0AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:37:59.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadastrarUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\CadastrarUsuario.cs",
+              "RelativeDocumentMoniker": "Formularios\\CadastrarUsuario.cs",
+              "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\CadastrarUsuario.cs [Design]",
+              "RelativeToolTip": "Formularios\\CadastrarUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:48:09.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Data\\Conexao.cs",
+              "RelativeDocumentMoniker": "Data\\Conexao.cs",
+              "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Data\\Conexao.cs",
+              "RelativeToolTip": "Data\\Conexao.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:39:43.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Models\\Livro.cs",
+              "RelativeDocumentMoniker": "Models\\Livro.cs",
+              "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Models\\Livro.cs",
+              "RelativeToolTip": "Models\\Livro.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:32:49.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:26:28.245Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
