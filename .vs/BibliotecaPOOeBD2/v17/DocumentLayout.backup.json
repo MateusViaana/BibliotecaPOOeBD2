@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|c:\\users\\mateu\\videos\\bibliotecapooebd2\\interface\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:interface\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|c:\\users\\mateu\\videos\\bibliotecapooebd2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|c:\\users\\mateu\\videos\\bibliotecapooebd2\\dao\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\dao\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:dao\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "IDAO.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\interface\\IDAO.cs",
+              "RelativeDocumentMoniker": "interface\\IDAO.cs",
+              "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\interface\\IDAO.cs",
+              "RelativeToolTip": "interface\\IDAO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T21:02:34.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -58,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CadastrarUsuario.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\CadastrarUsuario.cs",
               "RelativeDocumentMoniker": "Formularios\\CadastrarUsuario.cs",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DaoLivro.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Dao\\DaoLivro.cs",
               "RelativeDocumentMoniker": "Dao\\DaoLivro.cs",
@@ -91,12 +108,11 @@
               "RelativeToolTip": "Dao\\DaoLivro.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAIwD0AAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:37:59.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T21:37:59.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CadastrarUsuario.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\CadastrarUsuario.cs",
               "RelativeDocumentMoniker": "Formularios\\CadastrarUsuario.cs",
@@ -107,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Conexao.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Data\\Conexao.cs",
               "RelativeDocumentMoniker": "Data\\Conexao.cs",
@@ -119,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Livro.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Models\\Livro.cs",
               "RelativeDocumentMoniker": "Models\\Livro.cs",
@@ -131,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
