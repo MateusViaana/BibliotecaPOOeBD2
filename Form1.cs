@@ -29,5 +29,22 @@ namespace BibliotecaPOOeBD2
         {
             Conexao.Conectar();
         }
+
+        private void livrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarUsuario form = new CadastrarUsuario();
+            form.ShowDialog();
+        }
+
+        private void pesquisarLivrosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pesquisarLivrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PesquisarLivro form = new PesquisarLivro();
+            form.ShowDialog();
+        }
     }
 }

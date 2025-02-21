@@ -22,15 +22,24 @@ namespace BibliotecaPOOeBD2.Formularios
 
         private void btCancelar_Click(object sender, EventArgs e)
         {
-            txtAnoPublicacao.Clear();
-            txtAutor.Clear();
-            txtEdicao.Clear();
-            txtEditora.Clear();
-            txtGenero.Clear();
-            txtIdioma.Clear();
-            txtISBN.Clear();
-            txtTitulo.Clear();
-            txtTitulo.Focus();
+            try
+            {
+                txtAnoPublicacao.Clear();
+                txtAutor.Clear();
+                txtEdicao.Clear();
+                txtEditora.Clear();
+                txtGenero.Clear();
+                txtIdioma.Clear();
+                txtISBN.Clear();
+                txtTitulo.Clear();
+                txtTitulo.Focus();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Erro ao cancelar!" + ex.Message);
+            }
+           
         }
 
         private void btSalvar_Click(object sender, EventArgs e)
@@ -68,6 +77,31 @@ namespace BibliotecaPOOeBD2.Formularios
 
                MessageBox.Show ("Erro ao realizar o cadastro!" +ex.Message);
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btPesquisar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DaoLivro l = new DaoLivro();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+           
+            
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

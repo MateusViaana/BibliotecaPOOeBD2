@@ -115,6 +115,12 @@
     <Compile Include="Formularios\CadastrarUsuario.Designer.cs">
       <DependentUpon>CadastrarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\PesquisarLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PesquisarLivro.Designer.cs">
+      <DependentUpon>PesquisarLivro.cs</DependentUpon>
+    </Compile>
     <Compile Include="interface\IDAO.cs" />
     <Compile Include="Models\Livro.cs" />
     <Compile Include="Program.cs" />
@@ -125,6 +131,9 @@
     <EmbeddedResource Include="Formularios\CadastrarUsuario.resx">
       <DependentUpon>CadastrarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PesquisarLivro.resx">
+      <DependentUpon>PesquisarLivro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -133,6 +142,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -148,6 +158,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\plano-de-fundo-dos-livros.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plano-de-fundo-do-livro-xfix8ihv6dmfjzyu.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
