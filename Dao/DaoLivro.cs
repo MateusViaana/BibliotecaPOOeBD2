@@ -88,26 +88,35 @@ namespace BibliotecaPOOeBD2.Dao
         {
             try
             {
-                List <Livro> livros = new List<Livro>();
-                string sql = "SELECT * FROM livros ORDER BY titulo";
-                MySqlCommand command = new MySqlCommand(sql, Conexao.Conectar());
+                List<Livro> livros = new List<Livro>();
+                string sql = "SELECT * FROM livros ORDER BY Titulo";
 
-                MySqlDataReader reader = command.ExecuteReader();
-
-                while (reader.Read())
+                using (MySqlConnection conexao = Conexao.Conectar())
+                using (MySqlCommand command = new MySqlCommand(sql, conexao))
                 {
-                    Livro l = new Livro();
-                    l.idLivro = reader.GetInt32("idLivro");
-                    l.titulo = reader.GetString("titulo");
-                    l.autor = reader.GetString("autor");
-                    l.editora = reader.GetString("editora");
-                    l.anoPublicacao = reader.GetDateTime("anoPublicacao");
-                    l.isbn = reader.GetString("isbn");
-                    l.genero = reader.GetString("genero");
-                    l.edicao = reader.GetString("edicao");
-                    l.idioma = reader.GetString("idioma");   
-                    livros.Add(l);
+                  
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Livro livro = new Livro
+                            {
+                                idLivro = reader.IsDBNull(reader.GetOrdinal("idLivro")) ? 0 : reader.GetInt32("idLivro"),
+                                titulo = reader.IsDBNull(reader.GetOrdinal("titulo")) ? "" : reader.GetString("titulo"),
+                                autor = reader.IsDBNull(reader.GetOrdinal("autor")) ? "" : reader.GetString("autor"),
+                                editora = reader.IsDBNull(reader.GetOrdinal("editora")) ? "" : reader.GetString("editora"),
+                                anoPublicacao = reader.IsDBNull(reader.GetOrdinal("anoPublicacao")) ? DateTime.MinValue : reader.GetDateTime("anoPublicacao"),
+                                isbn = reader.IsDBNull(reader.GetOrdinal("isbn")) ? "" : reader.GetString("isbn"),
+                                genero = reader.IsDBNull(reader.GetOrdinal("genero")) ? "" : reader.GetString("genero"),
+                                edicao = reader.IsDBNull(reader.GetOrdinal("edicao")) ? "" : reader.GetString("edicao"),
+                                idioma = reader.IsDBNull(reader.GetOrdinal("idioma")) ? "" : reader.GetString("idioma")
+                            };
+
+                            livros.Add(livro);
+                        }
+                    }
                 }
+
                 return livros;
 
             }
@@ -116,6 +125,7 @@ namespace BibliotecaPOOeBD2.Dao
 
                 throw new Exception ("Erro ao atualizar!" + ex.Message);
             }
+           
         }
     }
 }

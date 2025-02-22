@@ -58,6 +58,7 @@ namespace BibliotecaPOOeBD2.Formularios
                     l1.anoPublicacao = DateTime.Parse(txtAnoPublicacao.Text);
                     DaoLivro l2 = new DaoLivro();
                     l2.Insert(l1);
+                    l2.ListarTodos();
                     MessageBox.Show("Cadastro realizado com Sucesso!", "POO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     txtAnoPublicacao.Clear();
                     txtAutor.Clear();
@@ -88,12 +89,16 @@ namespace BibliotecaPOOeBD2.Formularios
         {
             try
             {
-                DaoLivro l = new DaoLivro();
+               DaoLivro l = new DaoLivro();
+                var filtro = l.ListarTodos();
+               dgvTabela.DataSource = filtro.OrderBy(p => p.titulo).ToList();
+
+              
             }
             catch (Exception ex)
             {
 
-                throw;
+                MessageBox.Show("Erro ao pesquisar! " + ex.Message);
             }
            
             

@@ -47,11 +47,11 @@
             this.txtEdicao = new System.Windows.Forms.TextBox();
             this.txtIdioma = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvTabela = new System.Windows.Forms.DataGridView();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPesquisa = new System.Windows.Forms.TextBox();
             this.btPesquisar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTabela)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -228,14 +228,15 @@
             this.label9.TabIndex = 17;
             this.label9.Text = "Idioma";
             // 
-            // dataGridView1
+            // dgvTabela
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(428, 108);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(453, 287);
-            this.dataGridView1.TabIndex = 19;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dgvTabela.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dgvTabela.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTabela.Location = new System.Drawing.Point(428, 108);
+            this.dgvTabela.Name = "dgvTabela";
+            this.dgvTabela.Size = new System.Drawing.Size(453, 287);
+            this.dgvTabela.TabIndex = 19;
+            this.dgvTabela.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label10
             // 
@@ -247,13 +248,13 @@
             this.label10.TabIndex = 20;
             this.label10.Text = "Consultar Livro:";
             // 
-            // textBox1
+            // txtPesquisa
             // 
-            this.textBox1.Location = new System.Drawing.Point(534, 82);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(261, 20);
-            this.textBox1.TabIndex = 21;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtPesquisa.Location = new System.Drawing.Point(534, 82);
+            this.txtPesquisa.Name = "txtPesquisa";
+            this.txtPesquisa.Size = new System.Drawing.Size(261, 20);
+            this.txtPesquisa.TabIndex = 21;
+            this.txtPesquisa.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btPesquisar
             // 
@@ -275,9 +276,9 @@
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(886, 450);
             this.Controls.Add(this.btPesquisar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPesquisa);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvTabela);
             this.Controls.Add(this.txtIdioma);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtEdicao);
@@ -299,7 +300,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CadastrarUsuario";
             this.Text = "CadastrarUsuario";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTabela)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -326,9 +327,9 @@
         private System.Windows.Forms.TextBox txtEdicao;
         private System.Windows.Forms.TextBox txtIdioma;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvTabela;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPesquisa;
         private System.Windows.Forms.Button btPesquisar;
     }
 }
