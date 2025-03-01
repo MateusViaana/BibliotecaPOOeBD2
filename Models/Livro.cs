@@ -19,5 +19,7 @@ namespace BibliotecaPOOeBD2.Models
         public string genero { set; get; }
         public string edicao { set; get; }
         public string idioma { set; get; }
+
+        public int fk_idBiblioteca { set; get; }
     }
 }

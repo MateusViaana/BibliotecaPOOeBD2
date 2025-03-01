@@ -51,6 +51,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txtPesquisa = new System.Windows.Forms.TextBox();
             this.btPesquisar = new System.Windows.Forms.Button();
+            this.txtIDbiblioteca = new System.Windows.Forms.TextBox();
+            this.labelidBiblioteca = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTabela)).BeginInit();
             this.SuspendLayout();
             // 
@@ -269,12 +271,36 @@
             this.btPesquisar.UseVisualStyleBackColor = false;
             this.btPesquisar.Click += new System.EventHandler(this.btPesquisar_Click);
             // 
+            // txtIDbiblioteca
+            // 
+            this.txtIDbiblioteca.Enabled = false;
+            this.txtIDbiblioteca.Location = new System.Drawing.Point(201, 360);
+            this.txtIDbiblioteca.Name = "txtIDbiblioteca";
+            this.txtIDbiblioteca.Size = new System.Drawing.Size(77, 20);
+            this.txtIDbiblioteca.TabIndex = 23;
+            this.txtIDbiblioteca.Visible = false;
+            this.txtIDbiblioteca.TextChanged += new System.EventHandler(this.txtIDbiblioteca_TextChanged);
+            // 
+            // labelidBiblioteca
+            // 
+            this.labelidBiblioteca.AutoSize = true;
+            this.labelidBiblioteca.Enabled = false;
+            this.labelidBiblioteca.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelidBiblioteca.Location = new System.Drawing.Point(198, 344);
+            this.labelidBiblioteca.Name = "labelidBiblioteca";
+            this.labelidBiblioteca.Size = new System.Drawing.Size(80, 13);
+            this.labelidBiblioteca.TabIndex = 24;
+            this.labelidBiblioteca.Text = "ID Biblioteca";
+            this.labelidBiblioteca.Visible = false;
+            // 
             // CadastrarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(886, 450);
+            this.Controls.Add(this.labelidBiblioteca);
+            this.Controls.Add(this.txtIDbiblioteca);
             this.Controls.Add(this.btPesquisar);
             this.Controls.Add(this.txtPesquisa);
             this.Controls.Add(this.label10);
@@ -331,5 +357,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtPesquisa;
         private System.Windows.Forms.Button btPesquisar;
+        private System.Windows.Forms.TextBox txtIDbiblioteca;
+        private System.Windows.Forms.Label labelidBiblioteca;
     }
 }

@@ -20,7 +20,7 @@ namespace BibliotecaPOOeBD2.Dao
             {
 
 
-                string sql = "Insert into livros (titulo, autor, editora, anoPublicacao, isbn, genero, edicao, idioma) values (@titulo, @autor, @editora, @anoPublicacao, @isbn, @genero, @edicao, @idioma)";
+                string sql = "Insert into livros (titulo, autor, editora, anoPublicacao, isbn, genero, edicao, idioma, fk_idBiblioteca) values (@titulo, @autor, @editora, @anoPublicacao, @isbn, @genero, @edicao, @idioma, @fk_idBiblioteca)";
 
                 MySqlCommand comando = new MySqlCommand(sql, Conexao.Conectar());
 
@@ -32,6 +32,7 @@ namespace BibliotecaPOOeBD2.Dao
                 comando.Parameters.AddWithValue("@genero", livros.genero);
                 comando.Parameters.AddWithValue("@edicao", livros.edicao);
                 comando.Parameters.AddWithValue("@idioma", livros.idioma);
+                comando.Parameters.AddWithValue("@fk_idBiblioteca", livros.fk_idBiblioteca);
                 comando.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -109,7 +110,8 @@ namespace BibliotecaPOOeBD2.Dao
                                 isbn = reader.IsDBNull(reader.GetOrdinal("isbn")) ? "" : reader.GetString("isbn"),
                                 genero = reader.IsDBNull(reader.GetOrdinal("genero")) ? "" : reader.GetString("genero"),
                                 edicao = reader.IsDBNull(reader.GetOrdinal("edicao")) ? "" : reader.GetString("edicao"),
-                                idioma = reader.IsDBNull(reader.GetOrdinal("idioma")) ? "" : reader.GetString("idioma")
+                                idioma = reader.IsDBNull(reader.GetOrdinal("idioma")) ? "" : reader.GetString("idioma"),
+                                fk_idBiblioteca = reader.IsDBNull(reader.GetOrdinal("fk_idBiblioteca")) ? 1 : reader.GetInt32("fk_idBiblioteca")
                             };
 
                             livros.Add(livro);
@@ -123,9 +125,52 @@ namespace BibliotecaPOOeBD2.Dao
             catch (Exception ex)
             {
 
-                throw new Exception ("Erro ao atualizar!" + ex.Message);
+                throw new Exception ("Erro ao Listar!" + ex.Message);
             }
+
            
+        }
+
+        public List<Livro> ListarSelecionar(string titulo)
+        {
+            try
+            {
+                List<Livro> livros = new List<Livro>();
+                string sql = "SELECT * FROM livros WHERE Titulo Like @titulo ORDER BY titulo";
+                using (MySqlConnection conexao = Conexao.Conectar())
+                using (MySqlCommand command = new MySqlCommand(sql, conexao))
+                {
+                    command.Parameters.AddWithValue("@titulo", "%" + titulo + "%");
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        
+                        while (reader.Read())
+                        {
+                            Livro livro = new Livro
+                            {
+                                idLivro = reader.IsDBNull(reader.GetOrdinal("idLivro")) ? 0 : reader.GetInt32("idLivro"),
+                                titulo = reader.IsDBNull(reader.GetOrdinal("titulo")) ? "" : reader.GetString("titulo"),
+                                autor = reader.IsDBNull(reader.GetOrdinal("autor")) ? "" : reader.GetString("autor"),
+                                editora = reader.IsDBNull(reader.GetOrdinal("editora")) ? "" : reader.GetString("editora"),
+                                anoPublicacao = reader.IsDBNull(reader.GetOrdinal("anoPublicacao")) ? DateTime.MinValue : reader.GetDateTime("anoPublicacao"),
+                                isbn = reader.IsDBNull(reader.GetOrdinal("isbn")) ? "" : reader.GetString("isbn"),
+                                genero = reader.IsDBNull(reader.GetOrdinal("genero")) ? "" : reader.GetString("genero"),
+                                edicao = reader.IsDBNull(reader.GetOrdinal("edicao")) ? "" : reader.GetString("edicao"),
+                                idioma = reader.IsDBNull(reader.GetOrdinal("idioma")) ? "" : reader.GetString("idioma"),
+                                fk_idBiblioteca = reader.IsDBNull(reader.GetOrdinal("fk_idBiblioteca")) ? 1 : reader.GetInt32("fk_idBiblioteca")
+                            };
+
+                            livros.Add(livro);
+                        }
+                    }
+                    return livros;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
     }
 }

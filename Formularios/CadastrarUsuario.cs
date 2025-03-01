@@ -56,6 +56,8 @@ namespace BibliotecaPOOeBD2.Formularios
                     l1.idioma = txtIdioma.Text;
                     l1.isbn = txtISBN.Text;
                     l1.anoPublicacao = DateTime.Parse(txtAnoPublicacao.Text);
+                    l1.fk_idBiblioteca = 2;
+                    
                     DaoLivro l2 = new DaoLivro();
                     l2.Insert(l1);
                     l2.ListarTodos();
@@ -69,6 +71,8 @@ namespace BibliotecaPOOeBD2.Formularios
                     txtISBN.Clear();
                     txtTitulo.Clear();
                     txtTitulo.Focus();
+                    txtIDbiblioteca.Visible = true;
+                    labelidBiblioteca.Visible = true;
                 }
                
                 
@@ -89,11 +93,14 @@ namespace BibliotecaPOOeBD2.Formularios
         {
             try
             {
+                string titulo = txtPesquisa.Text;
                DaoLivro l = new DaoLivro();
-                var filtro = l.ListarTodos();
+                var filtro = l.ListarSelecionar(titulo);
                dgvTabela.DataSource = filtro.OrderBy(p => p.titulo).ToList();
 
-              
+                
+
+
             }
             catch (Exception ex)
             {
@@ -105,6 +112,11 @@ namespace BibliotecaPOOeBD2.Formularios
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txtIDbiblioteca_TextChanged(object sender, EventArgs e)
         {
 
         }
