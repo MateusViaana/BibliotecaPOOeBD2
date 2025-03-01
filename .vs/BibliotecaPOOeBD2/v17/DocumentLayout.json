@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\dao\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:dao\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\interface\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:interface\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\formularios\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:formularios\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\formularios\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:formularios\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|c:\\users\\mateu\\videos\\bibliotecapooebd2\\dao\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:dao\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\interface\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:interface\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:formularios\\pesquisarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|c:\\users\\mateu\\videos\\bibliotecapooebd2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF8041B9-93BA-45FB-B6B5-270A0F8A1A19}|BibliotecaPOOeBD2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -50,37 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CadastrarUsuario.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\CadastrarUsuario.cs",
               "RelativeDocumentMoniker": "Formularios\\CadastrarUsuario.cs",
               "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\CadastrarUsuario.cs",
               "RelativeToolTip": "Formularios\\CadastrarUsuario.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAmwGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAIAywGQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T21:49:24.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DaoLivro.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Dao\\DaoLivro.cs",
               "RelativeDocumentMoniker": "Dao\\DaoLivro.cs",
               "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Dao\\DaoLivro.cs",
               "RelativeToolTip": "Dao\\DaoLivro.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAAAJUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAqwJUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T21:37:59.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CadastrarUsuario.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\CadastrarUsuario.cs",
               "RelativeDocumentMoniker": "Formularios\\CadastrarUsuario.cs",
@@ -100,12 +100,11 @@
               "RelativeToolTip": "Models\\Livro.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:32:49.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T20:32:49.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IDAO.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\interface\\IDAO.cs",
               "RelativeDocumentMoniker": "interface\\IDAO.cs",
@@ -113,8 +112,7 @@
               "RelativeToolTip": "interface\\IDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T21:02:34.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T21:02:34.235Z"
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Formularios\\PesquisarLivro.cs [Design]",
               "RelativeToolTip": "Formularios\\PesquisarLivro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T22:27:38.767Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-21T22:27:38.767Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAAwC4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:47:33.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T21:47:33.992Z"
             },
             {
               "$type": "Document",
@@ -162,8 +158,7 @@
               "ToolTip": "C:\\Users\\mateu\\Videos\\BibliotecaPOOeBD2\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:26:28.245Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-16T20:26:28.245Z"
             },
             {
               "$type": "Document",
