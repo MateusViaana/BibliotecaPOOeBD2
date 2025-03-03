@@ -53,6 +53,10 @@
             this.btPesquisar = new System.Windows.Forms.Button();
             this.txtIDbiblioteca = new System.Windows.Forms.TextBox();
             this.labelidBiblioteca = new System.Windows.Forms.Label();
+            this.btAtualizar = new System.Windows.Forms.Button();
+            this.btExcluir = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTabela)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,7 +127,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label7.Location = new System.Drawing.Point(1, -3);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(890, 44);
+            this.label7.Size = new System.Drawing.Size(890, 33);
             this.label7.TabIndex = 6;
             this.label7.Text = "CADASTRO DE LIVROS";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -175,7 +179,7 @@
             this.btSalvar.BackColor = System.Drawing.Color.Green;
             this.btSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSalvar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btSalvar.Location = new System.Drawing.Point(453, 401);
+            this.btSalvar.Location = new System.Drawing.Point(31, 402);
             this.btSalvar.Name = "btSalvar";
             this.btSalvar.Size = new System.Drawing.Size(75, 36);
             this.btSalvar.TabIndex = 13;
@@ -188,7 +192,7 @@
             this.btCancelar.BackColor = System.Drawing.Color.Red;
             this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCancelar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btCancelar.Location = new System.Drawing.Point(534, 401);
+            this.btCancelar.Location = new System.Drawing.Point(112, 401);
             this.btCancelar.Name = "btCancelar";
             this.btCancelar.Size = new System.Drawing.Size(75, 37);
             this.btCancelar.TabIndex = 14;
@@ -239,16 +243,17 @@
             this.dgvTabela.Size = new System.Drawing.Size(453, 287);
             this.dgvTabela.TabIndex = 19;
             this.dgvTabela.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dgvTabela.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvTabela_RowHeaderMouseClick);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(432, 89);
+            this.label10.Location = new System.Drawing.Point(428, 86);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(96, 13);
+            this.label10.Size = new System.Drawing.Size(100, 13);
             this.label10.TabIndex = 20;
-            this.label10.Text = "Consultar Livro:";
+            this.label10.Text = "Consultar Titulo:";
             // 
             // txtPesquisa
             // 
@@ -278,7 +283,6 @@
             this.txtIDbiblioteca.Name = "txtIDbiblioteca";
             this.txtIDbiblioteca.Size = new System.Drawing.Size(77, 20);
             this.txtIDbiblioteca.TabIndex = 23;
-            this.txtIDbiblioteca.Visible = false;
             this.txtIDbiblioteca.TextChanged += new System.EventHandler(this.txtIDbiblioteca_TextChanged);
             // 
             // labelidBiblioteca
@@ -291,7 +295,50 @@
             this.labelidBiblioteca.Size = new System.Drawing.Size(80, 13);
             this.labelidBiblioteca.TabIndex = 24;
             this.labelidBiblioteca.Text = "ID Biblioteca";
-            this.labelidBiblioteca.Visible = false;
+            // 
+            // btAtualizar
+            // 
+            this.btAtualizar.BackColor = System.Drawing.Color.DarkOrange;
+            this.btAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btAtualizar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btAtualizar.Location = new System.Drawing.Point(453, 402);
+            this.btAtualizar.Name = "btAtualizar";
+            this.btAtualizar.Size = new System.Drawing.Size(75, 36);
+            this.btAtualizar.TabIndex = 25;
+            this.btAtualizar.Text = "Atualizar";
+            this.btAtualizar.UseVisualStyleBackColor = false;
+            this.btAtualizar.Click += new System.EventHandler(this.btAtualizar_Click_1);
+            // 
+            // btExcluir
+            // 
+            this.btExcluir.BackColor = System.Drawing.Color.Red;
+            this.btExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btExcluir.ForeColor = System.Drawing.SystemColors.Control;
+            this.btExcluir.Location = new System.Drawing.Point(534, 401);
+            this.btExcluir.Name = "btExcluir";
+            this.btExcluir.Size = new System.Drawing.Size(75, 37);
+            this.btExcluir.TabIndex = 26;
+            this.btExcluir.Text = "Excluir";
+            this.btExcluir.UseVisualStyleBackColor = false;
+            this.btExcluir.Click += new System.EventHandler(this.btExcluir_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(21, 38);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(20, 13);
+            this.label11.TabIndex = 27;
+            this.label11.Text = "ID";
+            // 
+            // txtID
+            // 
+            this.txtID.Enabled = false;
+            this.txtID.Location = new System.Drawing.Point(24, 54);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(34, 20);
+            this.txtID.TabIndex = 28;
             // 
             // CadastrarUsuario
             // 
@@ -299,6 +346,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(886, 450);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.btExcluir);
+            this.Controls.Add(this.btAtualizar);
             this.Controls.Add(this.labelidBiblioteca);
             this.Controls.Add(this.txtIDbiblioteca);
             this.Controls.Add(this.btPesquisar);
@@ -359,5 +410,9 @@
         private System.Windows.Forms.Button btPesquisar;
         private System.Windows.Forms.TextBox txtIDbiblioteca;
         private System.Windows.Forms.Label labelidBiblioteca;
+        private System.Windows.Forms.Button btAtualizar;
+        private System.Windows.Forms.Button btExcluir;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtID;
     }
 }

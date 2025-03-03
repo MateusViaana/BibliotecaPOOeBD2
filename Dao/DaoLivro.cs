@@ -63,19 +63,23 @@ namespace BibliotecaPOOeBD2.Dao
         {
             try
             {
-                string sql = "UPDATE livros SET titulo = @titulo, autor = @autor, editora = @editora, anoPublicacao = @anoPublicacao," +
-                    "isbn =  @isbn, genero = @genero, edicao = @edicao, idioma = @idioma)";
+                string sql = "UPDATE livros SET titulo = @titulo, autor = @autor, editora = @editora, anoPublicacao = @anoPublicacao, " +
+                 "isbn = @isbn, genero = @genero, edicao = @edicao, idioma = @idioma " +
+                 "WHERE idLivro = @idLivro"; 
+
 
                 MySqlCommand comando = new MySqlCommand(sql, Conexao.Conectar());
                 comando.Parameters.AddWithValue("@titulo", livros.titulo);
                 comando.Parameters.AddWithValue("@autor", livros.autor);
-                comando.Parameters.AddWithValue("@editora", livros.editora);
-                comando.Parameters.AddWithValue("@titulo", livros.titulo);
+                comando.Parameters.AddWithValue("@editora", livros.editora);     
                 comando.Parameters.AddWithValue("@anoPublicacao", livros.anoPublicacao);
                 comando.Parameters.AddWithValue("@isbn", livros.isbn);
                 comando.Parameters.AddWithValue("@genero", livros.genero);
                 comando.Parameters.AddWithValue("@edicao", livros.edicao);
                 comando.Parameters.AddWithValue("@idioma", livros.idioma);
+                comando.Parameters.AddWithValue("@idLivro", livros.idLivro);
+
+                comando.ExecuteNonQuery();
 
             }
             catch (Exception ex)

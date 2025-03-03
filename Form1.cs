@@ -43,8 +43,7 @@ namespace BibliotecaPOOeBD2
 
         private void pesquisarLivrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PesquisarLivro form = new PesquisarLivro();
-            form.ShowDialog();
+           
         }
     }
 }

@@ -88,4 +88,3 @@ C:\Users\mateu\Videos\BibliotecaPOOeBD2\obj\Debug\BibliotecaPOOeBD2.exe
 C:\Users\mateu\Videos\BibliotecaPOOeBD2\obj\Debug\BibliotecaPOOeBD2.pdb
 C:\Users\mateu\Videos\BibliotecaPOOeBD2\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\mateu\Videos\BibliotecaPOOeBD2\bin\Debug\BouncyCastle.Crypto.xml
-C:\Users\mateu\Videos\BibliotecaPOOeBD2\obj\Debug\BibliotecaPOOeBD2.Formularios.PesquisarLivro.resources

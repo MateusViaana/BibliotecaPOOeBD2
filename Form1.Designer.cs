@@ -31,9 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.livrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pesquisarLivrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.excluirLivrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editarLivrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -58,10 +55,7 @@
             // 
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.livrosToolStripMenuItem,
-            this.pesquisarLivrosToolStripMenuItem,
-            this.excluirLivrosToolStripMenuItem,
-            this.editarLivrosToolStripMenuItem});
+            this.livrosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
@@ -75,25 +69,6 @@
             this.livrosToolStripMenuItem.Size = new System.Drawing.Size(115, 21);
             this.livrosToolStripMenuItem.Text = "Cadastro Livros";
             this.livrosToolStripMenuItem.Click += new System.EventHandler(this.livrosToolStripMenuItem_Click);
-            // 
-            // pesquisarLivrosToolStripMenuItem
-            // 
-            this.pesquisarLivrosToolStripMenuItem.Name = "pesquisarLivrosToolStripMenuItem";
-            this.pesquisarLivrosToolStripMenuItem.Size = new System.Drawing.Size(120, 21);
-            this.pesquisarLivrosToolStripMenuItem.Text = "Pesquisar Livros";
-            this.pesquisarLivrosToolStripMenuItem.Click += new System.EventHandler(this.pesquisarLivrosToolStripMenuItem_Click);
-            // 
-            // excluirLivrosToolStripMenuItem
-            // 
-            this.excluirLivrosToolStripMenuItem.Name = "excluirLivrosToolStripMenuItem";
-            this.excluirLivrosToolStripMenuItem.Size = new System.Drawing.Size(102, 21);
-            this.excluirLivrosToolStripMenuItem.Text = "Excluir Livros";
-            // 
-            // editarLivrosToolStripMenuItem
-            // 
-            this.editarLivrosToolStripMenuItem.Name = "editarLivrosToolStripMenuItem";
-            this.editarLivrosToolStripMenuItem.Size = new System.Drawing.Size(97, 21);
-            this.editarLivrosToolStripMenuItem.Text = "Editar Livros";
             // 
             // label2
             // 
@@ -169,9 +144,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem livrosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pesquisarLivrosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem excluirLivrosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editarLivrosToolStripMenuItem;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
