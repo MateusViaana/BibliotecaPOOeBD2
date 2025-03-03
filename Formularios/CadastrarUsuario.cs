@@ -204,7 +204,7 @@ namespace BibliotecaPOOeBD2.Formularios
         {
             try
             {
-             DialogResult result = MessageBox.Show("Deseja mesmo Atualizar ?", "3º POO/BD2 ADS", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+             DialogResult result = MessageBox.Show("Deseja mesmo Excluir ?", "3º POO/BD2 ADS", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.Yes)
                 {
                     DaoLivro livro = new DaoLivro();
@@ -263,6 +263,10 @@ namespace BibliotecaPOOeBD2.Formularios
                 return;
             }
             if (txtPesquisa.Focused)
+            {
+                return;
+            }
+            if (dgvTabela.Focused)
             {
                 return;
             }
