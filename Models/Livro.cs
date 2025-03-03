@@ -27,8 +27,10 @@ namespace BibliotecaPOOeBD2.Models
         {
             if (isbn.Length != 13)
             {
-                MessageBox.Show("Quantidade de números ISBN deve ser 13!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Quantidade de números ISBN deve ser 13!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            
+           
             else
             {
                 this.isbn = isbn;

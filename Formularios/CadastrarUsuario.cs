@@ -49,6 +49,7 @@ namespace BibliotecaPOOeBD2.Formularios
         {
             try
             {
+               
                 Livro l1 = new Livro();
                 {
                     
@@ -232,6 +233,62 @@ namespace BibliotecaPOOeBD2.Formularios
             {
 
                 MessageBox.Show("Erro ao Excluir! " + ex.Message);
+            }
+        }
+
+        private void txtISBN_KeyUp(object sender, KeyEventArgs e)
+        {
+            bool verificarNumero = false;
+
+            if ((e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9) || (e.KeyCode >= Keys.NumPad0 && e.KeyCode <= Keys.NumPad9))
+            {
+                verificarNumero = true;
+            }
+            else
+            {
+                if (e.KeyCode == Keys.Enter) verificarNumero = true;
+               if (e.KeyCode == Keys.Back) verificarNumero = true;
+            }
+            if (verificarNumero == false)
+            {
+                MessageBox.Show ("Somente números!", "POO/BD2", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtISBN.Clear();
+                txtISBN.Select();
+            }
+        }
+        private void txtTitulo_Validating(object sender, CancelEventArgs e)
+        {
+            if (btPesquisar.Focused)
+            {
+                return;
+            }
+            if (txtPesquisa.Focused)
+            {
+                return;
+            }
+            if (string.IsNullOrEmpty(txtTitulo.Text))
+            {
+                MessageBox.Show("Campo é obrigatório ser preenchido!", "POO/BD2", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtTitulo.Select();
+            }
+        }
+
+        private void txtAutor_Validating(object sender, CancelEventArgs e)
+        {
+          
+            if (string.IsNullOrEmpty(txtAutor.Text))
+            {
+                MessageBox.Show("Campo é obrigatório ser preenchido!", "POO/BD2", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtAutor.Select();
+            }
+        }
+
+        private void txtISBN_Validating(object sender, CancelEventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtISBN.Text))
+            {
+                MessageBox.Show("Campo é obrigatório ser preenchido!", "POO/BD2", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtISBN.Select();
             }
         }
     }

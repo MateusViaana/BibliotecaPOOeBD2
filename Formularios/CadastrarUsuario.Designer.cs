@@ -138,6 +138,7 @@
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(384, 20);
             this.txtTitulo.TabIndex = 7;
+            this.txtTitulo.Validating += new System.ComponentModel.CancelEventHandler(this.txtTitulo_Validating);
             // 
             // txtAutor
             // 
@@ -145,6 +146,7 @@
             this.txtAutor.Name = "txtAutor";
             this.txtAutor.Size = new System.Drawing.Size(384, 20);
             this.txtAutor.TabIndex = 8;
+            this.txtAutor.Validating += new System.ComponentModel.CancelEventHandler(this.txtAutor_Validating);
             // 
             // txtEditora
             // 
@@ -166,6 +168,8 @@
             this.txtISBN.Name = "txtISBN";
             this.txtISBN.Size = new System.Drawing.Size(124, 20);
             this.txtISBN.TabIndex = 11;
+            this.txtISBN.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtISBN_KeyUp);
+            this.txtISBN.Validating += new System.ComponentModel.CancelEventHandler(this.txtISBN_Validating);
             // 
             // txtGenero
             // 
